@@ -8,18 +8,48 @@
 
 // ≥992px
 +media-breakpoint-down(md)
+@media only screen and (max-width : 1199px)
+	.welcome
+		.h1
+			font-size: 64px
+	.header-contacts
+		font-size: 14px		
 
 // ≥768px
 +media-breakpoint-down(sm)
+@media only screen and (max-width : 991px)
+	.welcome
+		.h1
+			font-size: 48px	
 
 // ≥576px
 +media-breakpoint-down(xs)
+@media only screen and (max-width : 767px)
+	.header-contacts
+		.phone-h
+			text-align: left
+	.button
+		padding: 12px 36px		
 
 
 /*==========  Mobile First  ==========*/
 
 // ≤576px
 +media-breakpoint-up(sm)
+@media only screen and (max-width : 480px)
+	.welcome
+		.h1
+			font-size: 28px
+			margin-top: 5px
+		p
+			span
+				font-size: 9px	
+		strong
+			margin-top: 14px
+			font-size: 14px
+	.header-composition
+		p
+			font-size: 14px				
 
 // ≤768px
 +media-breakpoint-up(md)
