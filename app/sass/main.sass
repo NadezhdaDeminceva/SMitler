@@ -59,6 +59,10 @@ section, header
 	background-position: center
 section
 	background-color: #fff	
+	&.inverse
+		color: #fff
+		background-color: $dark
+
 .img-responsive
 	display: block
 	max-width: 100%
@@ -380,5 +384,9 @@ $colors: $blue, $red, $accent
 .owl-carousel
 	.owl-item
 		backface-visibility: inherit									
+
+.s
+	&-king, &-review, &-partners
+		padding: 5% 0
 
 @import "media" // Always at the end
